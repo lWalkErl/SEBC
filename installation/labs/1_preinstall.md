@@ -334,5 +334,44 @@ SELINUX=disabled
 #     minimum - Modification of targeted policy. Only selected processes are protected.
 #     mls - Multi Level Security protection.
 SELINUXTYPE=targeted
+## Temporarily change it by issuing
+[root@ip-172-31-8-231 ~]# setenforce 0
+```
 
+Setting ulimit
+```
+## Add nofile and nproc in file /etc/security/limits.conf
+[root@ip-172-31-8-231 ~]# vi /etc/security/limits.conf
+#<domain>      <type>  <item>         <value>
+#
+
+* - nofile 32768
+* - nproc 65536
+
+#*               soft    core            0
+#*               hard    rss             10000
+#@student        hard    nproc           20
+#@faculty        soft    nproc           20
+#@faculty        hard    nproc           50
+#ftp             hard    nproc           0
+#@student        -       maxlogins       4
+
+# End of file
+[root@ip-172-31-8-231 ~]# ulimit -a
+core file size          (blocks, -c) 0
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 31136
+max locked memory       (kbytes, -l) 64
+max memory size         (kbytes, -m) unlimited
+open files                      (-n) 32768
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) 8192
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 65536
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
 ```
