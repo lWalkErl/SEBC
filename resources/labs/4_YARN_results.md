@@ -42,7 +42,7 @@ List parameters of terasort
 Reducer containers = 2
 Container memory = 1024
 mapper JVM heap = 819
-reducer JVM heap = 409
+reducer JVM heap = 819
 
 real    4m8.035s
 user    0m6.606s
