@@ -1,6 +1,6 @@
 Explain any adjustments
 ```
-A. I have adjust Reserved OS Memory from 10% of all memory (25.6GB) to 32GB
+A. I have adjust Reserved OS Memory from 10% of all memory (12.8GB) to 24GB
 ```
 
 What criteria affects workload factor? What does a value of 1, 2, or 4 signify?
