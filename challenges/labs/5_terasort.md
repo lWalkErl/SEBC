@@ -124,5 +124,73 @@ Spent 1230ms computing partitions.
 17/02/17 15:57:17 INFO mapreduce.Job:  map 100% reduce 11%
 17/02/17 15:57:21 INFO mapreduce.Job:  map 100% reduce 23%
 17/02/17 15:57:27 INFO mapreduce.Job:  map 100% reduce 27%
-
+17/02/17 15:57:33 INFO mapreduce.Job:  map 100% reduce 42%
+17/02/17 15:57:36 INFO mapreduce.Job:  map 100% reduce 44%
+17/02/17 15:57:39 INFO mapreduce.Job:  map 100% reduce 56%
+17/02/17 15:57:45 INFO mapreduce.Job:  map 100% reduce 60%
+17/02/17 15:57:51 INFO mapreduce.Job:  map 100% reduce 75%
+17/02/17 15:57:54 INFO mapreduce.Job:  map 100% reduce 77%
+17/02/17 15:57:57 INFO mapreduce.Job:  map 100% reduce 89%
+17/02/17 15:58:03 INFO mapreduce.Job:  map 100% reduce 93%
+17/02/17 15:58:09 INFO mapreduce.Job:  map 100% reduce 98%
+17/02/17 15:58:12 INFO mapreduce.Job:  map 100% reduce 100%
+17/02/17 15:58:12 INFO mapreduce.Job: Job job_1487317300275_0001 completed successfully
+17/02/17 15:58:12 INFO mapreduce.Job: Counters: 50
+        File System Counters
+                FILE: Number of bytes read=2275600754
+                FILE: Number of bytes written=4519298385
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=5120024804
+                HDFS: Number of bytes written=5120000000
+                HDFS: Number of read operations=477
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=6
+        Job Counters 
+                Launched map tasks=156
+                Launched reduce tasks=3
+                Data-local map tasks=154
+                Rack-local map tasks=2
+                Total time spent by all maps in occupied slots (ms)=743581
+                Total time spent by all reduces in occupied slots (ms)=250926
+                Total time spent by all map tasks (ms)=743581
+                Total time spent by all reduce tasks (ms)=250926
+                Total vcore-seconds taken by all map tasks=743581
+                Total vcore-seconds taken by all reduce tasks=250926
+                Total megabyte-seconds taken by all map tasks=761426944
+                Total megabyte-seconds taken by all reduce tasks=256948224
+        Map-Reduce Framework
+                Map input records=51200000
+                Map output records=51200000
+                Map output bytes=5222400000
+                Map output materialized bytes=2223499425
+                Input split bytes=24804
+                Combine input records=0
+                Combine output records=0
+                Reduce input groups=51200000
+                Reduce shuffle bytes=2223499425
+                Reduce input records=51200000
+                Reduce output records=51200000
+                Spilled Records=102400000
+                Shuffled Maps =468
+                Failed Shuffles=0
+                Merged Map outputs=468
+                GC time elapsed (ms)=9042
+                CPU time spent (ms)=508110
+                Physical memory (bytes) snapshot=76580569088
+                Virtual memory (bytes) snapshot=250350514176
+                Total committed heap usage (bytes)=78473854976
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_REDUCE=0
+        File Input Format Counters 
+                Bytes Read=5120000000
+        File Output Format Counters 
+                Bytes Written=5120000000
+17/02/17 15:58:12 INFO terasort.TeraSort: done
 ```
