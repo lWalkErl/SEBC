@@ -24,4 +24,72 @@ Starting Job
 17/02/17 15:50:12 INFO impl.YarnClientImpl: Submitted application application_1487317300275_0002
 17/02/17 15:50:12 INFO mapreduce.Job: The url to track the job: http://ip-172-31-5-240.ap-southeast-1.compute.internal:8088/proxy/application_1487317300275_0002/
 17/02/17 15:50:12 INFO mapreduce.Job: Running job: job_1487317300275_0002
+17/02/17 15:58:27 INFO mapreduce.Job: Job job_1487317300275_0002 running in uber mode : false
+17/02/17 15:58:27 INFO mapreduce.Job:  map 0% reduce 0%
+17/02/17 15:58:35 INFO mapreduce.Job:  map 20% reduce 0%
+17/02/17 15:58:39 INFO mapreduce.Job:  map 40% reduce 0%
+17/02/17 15:58:43 INFO mapreduce.Job:  map 60% reduce 0%
+17/02/17 15:58:47 INFO mapreduce.Job:  map 80% reduce 0%
+17/02/17 15:58:51 INFO mapreduce.Job:  map 90% reduce 0%
+17/02/17 15:58:52 INFO mapreduce.Job:  map 100% reduce 0%
+17/02/17 15:58:55 INFO mapreduce.Job:  map 100% reduce 100%
+17/02/17 15:58:56 INFO mapreduce.Job: Job job_1487317300275_0002 completed successfully
+17/02/17 15:58:56 INFO mapreduce.Job: Counters: 49
+        File System Counters
+                FILE: Number of bytes read=97
+                FILE: Number of bytes written=1389583
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=3070
+                HDFS: Number of bytes written=215
+                HDFS: Number of read operations=43
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=3
+        Job Counters 
+                Launched map tasks=10
+                Launched reduce tasks=1
+                Data-local map tasks=10
+                Total time spent by all maps in occupied slots (ms)=36748
+                Total time spent by all reduces in occupied slots (ms)=3461
+                Total time spent by all map tasks (ms)=36748
+                Total time spent by all reduce tasks (ms)=3461
+                Total vcore-seconds taken by all map tasks=36748
+                Total vcore-seconds taken by all reduce tasks=3461
+                Total megabyte-seconds taken by all map tasks=37629952
+                Total megabyte-seconds taken by all reduce tasks=3544064
+        Map-Reduce Framework
+                Map input records=10
+                Map output records=20
+                Map output bytes=180
+                Map output materialized bytes=340
+                Input split bytes=1890
+                Combine input records=0
+                Combine output records=0
+                Reduce input groups=2
+                Reduce shuffle bytes=340
+                Reduce input records=20
+                Reduce output records=0
+                Spilled Records=40
+                Shuffled Maps =10
+                Failed Shuffles=0
+                Merged Map outputs=10
+                GC time elapsed (ms)=296
+                CPU time spent (ms)=5300
+                Physical memory (bytes) snapshot=4689113088
+                Virtual memory (bytes) snapshot=17327329280
+                Total committed heap usage (bytes)=4481089536
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_REDUCE=0
+        File Input Format Counters 
+                Bytes Read=1180
+        File Output Format Counters 
+                Bytes Written=97
+Job Finished in 525.918 seconds
+Estimated value of Pi is 3.14800000000000000000
 ```
