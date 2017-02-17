@@ -1,13 +1,14 @@
 Command and output for hdfs dfs -ls /user
 ```
 [hdfs@ip-172-31-5-240 ~]$ hdfs dfs -ls /user
-Found 6 items
-drwxr-xr-x   - hdfs   supergroup          0 2017-02-17 15:03 /user/fullerton
-drwxrwxrwx   - mapred hadoop              0 2017-02-17 15:01 /user/history
-drwxrwxr-t   - hive   hive                0 2017-02-17 15:01 /user/hive
-drwxrwxr-x   - hue    hue                 0 2017-02-17 15:02 /user/hue
-drwxrwxr-x   - oozie  oozie               0 2017-02-17 15:02 /user/oozie
-drwxr-xr-x   - hdfs   supergroup          0 2017-02-17 15:03 /user/raffles
+Found 7 items
+drwxr-xr-x   - fullerton hotels              0 2017-02-17 15:03 /user/fullerton
+drwxr-xr-x   - hdfs      supergroup          0 2017-02-17 15:08 /user/hdfs
+drwxrwxrwx   - mapred    hadoop              0 2017-02-17 15:01 /user/history
+drwxrwxr-t   - hive      hive                0 2017-02-17 15:01 /user/hive
+drwxrwxr-x   - hue       hue                 0 2017-02-17 15:02 /user/hue
+drwxrwxr-x   - oozie     oozie               0 2017-02-17 15:02 /user/oozie
+drwxr-xr-x   - raffles   shops               0 2017-02-17 15:03 /user/raffles
 ```
 
 The output from the CM API call ../api/v14/hosts
