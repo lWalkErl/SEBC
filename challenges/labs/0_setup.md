@@ -1,3 +1,9 @@
+List the cloud provider you are using (AWS, GCE, Azure, other)
+```
+[root@ip-172-31-15-79 tmp]# cat /sys/hypervisor/uuid
+ec271ded-643e-16a7-57d0-d54e85b8911f
+```
+
 List the Linux release you have chosen
 ```
 [root@ip-172-31-15-79 ~]# cat /etc/redhat-release 
